@@ -1,0 +1,17 @@
+{
+  "name": "test_sophos",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/init"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "body-parser": "^1.19.0",
+    "cookie-parser": "~1.3.5",
+    "dotenv": "^4.0.0",
+    "express": "^4.17.0",
+    "mysql2": "^1.6.5",
+    "sequelize": "^5.8.6"
+  }
+}
