@@ -11,11 +11,8 @@ var router = express.Router();
 router.use(user_middleware.user_exist);
 
 
-/* GET users listing. */
 router.post('/',product_middleware.product_exist, CartController.create);
 router.post('/delete_by_product', CartController.delete_by_product);
-
-//var User = app.get('models').User;
 
 
 module.exports = router;
